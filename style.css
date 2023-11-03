@@ -1,0 +1,187 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #FDF2E9;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+}
+/* nav */
+nav .nav-images ul{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav h2{
+    font-family: 'Big Shoulders Inline Text', cursive;
+    margin-top: 2vh;
+    text-align: center;
+    color: #C1BFBD;
+}
+nav .nav-images img{
+width: 60%;
+filter: grayscale(100%);
+opacity: 0.6;
+}
+/* end of  nav*/
+/* start of main section*/
+main{
+    margin-top: 4vh;
+    padding-top: 10vh;
+    color: #3C3835;
+    background-color: white;
+    padding-bottom: 8vh;
+}
+main small{
+    color: #DA8B46;
+    font-weight: bolder;
+    padding-left: 6%;
+}
+main .container >h1{
+    margin-top: 2vh;
+    padding-left: 6%;
+}
+main .steps{
+    margin:6vh 0;
+}
+main .step{
+    margin: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    gap: 80px;
+}
+main .step .text{
+ width: 50%;
+}
+main .step img{
+    width: 30%;
+    height: 100%;
+}
+main .step2{
+    flex-direction: row-reverse;
+}
+main .number
+{
+    color: #DDDDDD;
+    font-size: 52px;
+}
+main .step h1:nth-child(2){
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+}
+/* end main  */
+/* start meals */
+.Meals {
+    background-color: #FFFFFF;
+    padding: 6vh 0;
+    color: #3C3835;
+}
+.Meals .container > h1,.Meals  small{
+margin: 2vh 0;
+text-align: center;
+padding-bottom: 8vh;
+}
+.Meals small{
+    color: #DA8B46;
+    margin-left: 48%;
+}
+/* cards */
+.Meals .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    margin-bottom: 4vh;
+}
+.Meals .card{
+    border-radius: 25px;
+}
+.Meals .cards img{
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+}
+.Meals button{
+all: unset;
+margin: 2vh 15% 3vh 10%;
+padding: 0 8px;
+background-color: #DA8B46;
+border-radius: 25px;
+}
+.Meals h2{
+    margin: 2vh 15% 3vh 10%;
+}
+.Meals ul li{
+    margin: 2vh 15% 3vh 10%;
+    font-size: 18px;
+}
+.Meals ul li i{
+    padding-right: 14px;
+}
+.Meals .checklist{
+margin-top: 1vh;
+}
+.Meals .allrecipes{
+    color: #DA8B46;
+    text-decoration: underline;
+   margin-left: 35%;
+}
+ 
+/* end meals */
+/* start testmonails */
+.testmonails{
+    margin: 4vh 0 ;
+}
+.testmonails .container{
+ display: grid;
+ width: 88%;
+ grid-template-columns: 1fr 1.6fr;
+ gap: 40px;
+ color: #3C3835;
+}
+.testmonails small{
+    color: #DA8B46;
+    font-weight: bolder;
+    padding-left: 6%;
+}
+.testmonails .container >h1{
+    margin-top: 2vh;
+    padding-left: 6%;
+    font-size: 38px;
+}
+.testmonails .container .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.testmonails .container .gallery img{
+    width: 80%;
+}
+.testmonails .container .customers{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    color: #857269;
+}
+.testmonails .container .customer{
+ margin-bottom: 8vh;
+}
+.testmonails .container .customers .customer img{
+border-radius: 50%;
+width: 25%;
+margin-bottom: 4vh;
+}
+.testmonails .container .name{
+ color: #857269;
+}

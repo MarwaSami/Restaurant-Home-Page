@@ -1,0 +1,43 @@
+/* main */
+
+main .step{
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  height: auto;
+}
+main .step .text{
+ width: 80%;
+ margin-left: 10%;
+}
+main .step img{
+    width: 50%;
+    height: 65vh;
+    margin-left: 15%;
+}
+/* card */
+.Meals .cards{
+    grid-template-columns: 1fr;
+    gap: 35px;
+    margin-bottom: 4vh;
+}
+/* testm */
+.testmonails .container{
+    width: 94%;
+    margin-left: 3%;
+    grid-template-columns: 1fr ;
+    gap: 40px;
+  
+}
+.testmonails .container .gallery{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+}
+.testmonails .container .gallery img{
+ width: 100%;
+}
+.testmonails .container .customers{
+    margin-top: 10vh;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}

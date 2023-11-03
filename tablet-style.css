@@ -1,0 +1,73 @@
+.container{
+    width: 92%;
+    margin-left: 4%;
+}
+
+/* nav */
+nav .container{
+    width: 90%;
+    margin-left: 5%;
+}
+nav .nav-images ul{
+    justify-content: space-evenly;
+}
+/* main*/
+main .container small{
+    padding-left: 0;
+}
+main .container >h1 {
+ font-size: 26px;   
+ padding-left: 0;
+}
+main .step{
+    justify-content:flex-start;
+    gap: 80px;
+    height: 45vh;
+}
+main .step img{
+    width: 20%;
+    height: 80%;
+}
+main .step .text{
+    width: 55%;
+}
+main .step h1:nth-child(2){
+    font-size: 22px;
+}
+main .step2{
+    justify-content:flex-end; 
+}
+/* cards */
+.Meals .container > h1{
+ width: 80%;
+ margin-bottom: 4vh;
+}
+.Meals .cards{
+    gap: 15px;
+}
+.Meals .cards .card h2{
+    font-size: 20px;
+}
+.Meals .cards .card li{
+    font-size: 16px;
+}
+.Meals button{
+    margin: 2vh 5% 3vh 10%;
+    padding: 0 8px;
+    }
+/* testm */
+.testmonails .container{
+    width: 94%;
+    margin-left: 3%;
+    grid-template-columns: 1fr ;
+    gap: 40px;
+  
+}
+.testmonails .container .gallery{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+}
+.testmonails .container .gallery img{
+    width: 100%;
+   }
+
